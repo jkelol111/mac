@@ -16,6 +16,7 @@ brew "cocoapods"
 brew "ffmpeg"
 brew "git"
 brew "gnome-themes-standard"
+brew "go"
 brew "gtk+3"
 brew "libmagic"
 brew "libmtp"
@@ -25,18 +26,21 @@ brew "ncspot"
 brew "neofetch"
 brew "node"
 brew "pipenv"
+brew "postgresql", restart_service: true
 brew "pyenv"
 brew "pyenv-virtualenv"
 brew "pygobject3"
 brew "python-tk@3.9"
 brew "rustup-init"
 brew "twine-pypi"
+brew "upx"
 brew "zlib"
 cask "adobe-digital-editions"
 cask "adoptopenjdk8"
 cask "android-file-transfer"
 cask "android-studio"
 cask "balenaetcher"
+cask "calibre"
 cask "cyberduck"
 cask "discord"
 cask "dotnet-sdk3-1-400"
@@ -57,6 +61,7 @@ cask "onionshare"
 cask "paintbrush"
 cask "postman"
 cask "raspberry-pi-imager"
+cask "ripcord"
 cask "send-to-kindle"
 cask "sf-symbols"
 cask "spotify"
@@ -78,13 +83,12 @@ mas "DuckDuckGo Privacy Essentials", id: 1482920575
 mas "Interact", id: 1528095640
 mas "JSONPeep", id: 1458969831
 mas "Microsoft Excel", id: 462058435
-mas "Microsoft OneNote", id: 784801555
 mas "Microsoft Outlook", id: 985367838
 mas "Microsoft PowerPoint", id: 462062816
 mas "Microsoft To Do", id: 1274495053
 mas "Microsoft Word", id: 462054704
-mas "OneDrive", id: 823766827
 mas "PiPer", id: 1421915518
+mas "Playgrounds", id: 1496833156
 mas "RocketSim", id: 1504940162
 mas "Telegram", id: 747648890
 mas "Termius", id: 1176074088
