@@ -8,6 +8,7 @@
 // from the command palette or from `Zed` application menu.
 {
   "assistant": {
+    "default_model": {
       "provider": "ollama",
       "model": "codellama:latest"
     },
