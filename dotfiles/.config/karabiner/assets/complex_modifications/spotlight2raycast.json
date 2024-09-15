@@ -1,0 +1,20 @@
+{
+  "title": "Spotlight -> Raycast",
+  "rules": [
+    {
+      "description": "Make the Spotlight key trigger Raycast mapped to Cmd+Space",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "f4"
+          },
+          "to": {
+            "key_code": "spacebar",
+            "modifiers": ["right_command"]
+          }
+        }
+      ]
+    }
+  ]
+}

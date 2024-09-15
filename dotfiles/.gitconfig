@@ -1,0 +1,11 @@
+[user]
+	name = sunsetsonwheels
+	email = hey@sunsetsonwheels.me
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIM5xWTiu2NPHVhUPfkeyhxhW1y0hADbuDs55jWD1K4D/
+[commit]
+	gpgsign = true
+[gpg]
+	program = /opt/homebrew/bin/gpg
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
